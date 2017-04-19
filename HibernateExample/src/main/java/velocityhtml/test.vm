@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title t>Emogrifier Example</title>
+</head>
+
+<body>
+    <div class="invoice-box" style="max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+            color: #555;">
+        <table cellpadding="0" cellspacing="0" style="width: 100%;
+            line-height: inherit;
+            text-align: left;">
+            <tr class="top">
+                <td colspan="2" style="padding: 15px;
+            vertical-align: top;">
+                    <table style="width: 100%; line-height: inherit; text-align: left;">
+                        <tr>
+                            <td class="title" style="padding:5px;vertical-align:top;padding-bottom:2px;width:10%;display:inline;text-align:left;
+                            font-size:45px;line-height:45px;color:#333;">
+                          
+                                <img src="D://silicus.png" style="width:180%; max-width:100px;" alt="Logo"/></td>
+                            <td style="padding:5px;vertical-align:top;text-align:right;padding-bottom:20px;width:100%;display:block;">
+                                Invoice #: $id<br /> Created: $currentTime<br /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="information">
+                <td colspan="2" style="padding: 5px;
+            vertical-align: top;">
+                    <table style="width: 100%;
+            line-height: inherit;
+            text-align: left;">
+                        <tr>
+                            <td style="padding:5px;vertical-align:top;padding-bottom:40px;width:100%;display:block;text-align:left;">
+                             Building'B',6th,7th Floor,
+							<br /> 
+                           Aundh IT Park,<br /> Pune, Maharashtra 411020</td>
+                            <td style="padding:5px;vertical-align:top;text-align:right;padding-bottom:40px;width:100%;display:block;">www.silicus.com
+                            </td></tr> </table>    </td>
+            </tr>
+            <tr class="heading">
+                <td style="padding:5px;vertical-align:top;background:#eee;border-bottom:1px solid #ddd;font-weight:bold;">Company Name</td>
+                <td style="padding:5px;vertical-align:top;text-align:right;background:#eee;border-bottom:1px solid #ddd;font-weight:bold;">Working Area</td>
+            </tr>
+            <tr class="details">
+                <td style="padding:5px;vertical-align:top;padding-bottom:20px;">$CompanyName</td>
+                <td style="padding:5px;vertical-align:top;text-align:right;padding-bottom:20px;">SOFTWARE</td>
+            </tr>
+            <tr class="heading">
+                <td style="padding:5px;vertical-align:top;background:#eee;border-bottom:1px solid #ddd;font-weight:bold;">Employee ID</td>
+                <td style="padding:5px;vertical-align:top;text-align:right;background:#eee;border-bottom:1px solid #ddd;font-weight:bold;">Joining Date</td>
+            </tr>
+            <tr class="item">
+                <td style="padding:5px;vertical-align:top;border-bottom:1px solid #eee;">$empName</td>
+                <td style="padding:5px;vertical-align:top;text-align:right;border-bottom:1px solid #eee;">$dateOfJoining</td>
+            </tr>
+          
+        </table>
+    </div>
+</body>
+
+</html>

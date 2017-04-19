@@ -1,0 +1,5 @@
+com\mkyong\persistence\HibernateUtil.class
+velocityhtml\app.class
+com\mkyong\common\App.class
+pdfinvoice\GenerateInvoice.class
+com\mkyong\common\Info.class
